@@ -1,0 +1,20 @@
+konsep Asynchronous pada javascript
+
+silahkan coba dengan animasi pada website Phillip Roberts
+http://latentflip.com/loupe/
+
+JavaScript is a single-threaded, also non-blocking, asynchronous and concurrent language.
+
+Kesimpulan:
+Single vs Multi Thread --> Lingkungan eksekusi 'task',
+Blocking vs Non-Blocking --> Teknik ngoding (IO related),
+Synchronous vs Asynchronous --> Teknik ngoding (HTTP Request related)
+Concurrent vs Parallel --> Lingkungan eksekusi 'task'
+
+Di dalam javascript itu ada yang namanya V8 Engine,
+V8 Engine itu mesin yang menjalankan javascript di browser, sama kaya mobil ada mesinnya gitu.
+V8 Engine terdiri dari 2 bagian ada yang namanya:
+
+1. Heap --> digunakan untuk penyimpanan variabel dan function, ada jg hubungannya dengan hoisting.
+
+2. Stack --> digunakan untuk pemanggilan function dan eksekusi script.
